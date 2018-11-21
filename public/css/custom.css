@@ -1,0 +1,70 @@
+
+
+.navbar
+{
+  background-color: #f58747 !important;
+  font-size:1.6em;
+  color:#ddd !important;
+ 
+  
+}
+#myInput,#myOutput{
+   
+    font-size: 16px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    
+  }
+#inputid,#outputid
+{
+  background-image: url('/css/icon/sicon1.png');
+  background-position: bottom right;
+  background-repeat: no-repeat;
+
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+  .cdiv
+  {
+    border: 1px solid #f58747;
+  }
+  #cinput,#output {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+   
+    
+  }
+  
+  
+  .rightcol
+  {
+      text-align:right;
+  }
+  .imgsize img
+  {
+      max-width:80px;
+  }
+  #divinput,#divoutput
+  {
+      border:1px solid rgb(153, 187, 167);
+      height:20em;
+      overflow: scroll;
+      overflow-x: hidden;
+      
+  }
+  #buttondiv
+  {
+    text-align:center;
+    margin:30px;
+  }
+  #crates
+  {
+    background-color:#f58747;
+    color:#fff;
+    font-size:2em;
+  }
+  ul li.nav-item
+  {
+    display:none;
+  }
