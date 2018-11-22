@@ -4,7 +4,7 @@
 $exchangeRates = json_decode($rates, true);
 if($svalue1!="" && $svalue2!="" && $rates!="")
 {
- echo '<p id="crates">' .$svalue1. ' to EUR is ' .$exchangeRates['rates'][$svalue1].'</p>';
+ echo '<p id="crates">1 ' .$svalue1. ' = ' .$exchangeRates['rates'][$svalue1].' EUR</p>';
 }
 else if($rates=="" && $svalue1!="")
 {
