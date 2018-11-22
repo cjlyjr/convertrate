@@ -6,9 +6,9 @@ if($svalue1!="" && $svalue2!="" && $rates!="")
 {
  echo '<p id="crates">' .$svalue1. ' to EUR is ' .$exchangeRates['rates'][$svalue1].'</p>';
 }
-else if($rates=="")
+else if($rates=="" && $svalue1!="")
 {
-    echo '<p id="crates"></p>';
+    echo '<p id="crates">can not connect to fixor.io now,check your internet connect.</p>';
 }
 $results=array();
 
