@@ -8,7 +8,7 @@ if($svalue1!="" && $svalue2!="" && $rates!="")
 }
 else if($rates=="")
 {
-    echo '<p id="crates">can not connect to fixor.io now,check your internet connect.</p>';
+    echo '<p id="crates"></p>';
 }
 $results=array();
 
